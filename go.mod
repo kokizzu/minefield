@@ -9,7 +9,7 @@ require (
 	github.com/RoaringBitmap/roaring v1.9.4
 	github.com/alecthomas/participle/v2 v2.1.1
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/goccy/go-json v0.10.3
+	github.com/goccy/go-json v0.10.4
 	github.com/google/go-cmp v0.6.0
 	github.com/google/wire v0.6.0
 	github.com/olekukonko/tablewriter v0.0.5
@@ -19,9 +19,9 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.10.0
 	github.com/zeebo/assert v1.3.1
-	golang.org/x/net v0.31.0
+	golang.org/x/net v0.32.0
 	google.golang.org/protobuf v1.35.2
-	gorm.io/driver/sqlite v1.5.6
+	gorm.io/driver/sqlite v1.5.7
 	gorm.io/gorm v1.25.12
 )
 
@@ -49,12 +49,14 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.24 // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/onsi/gomega v1.30.0 // indirect
+	github.com/philippgille/chromem-go v0.7.0
 	github.com/rs/cors v1.11.1
+	github.com/sashabaranov/go-openai v1.36.0
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spdx/tools-golang v0.5.5 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	golang.org/x/sys v0.27.0 // indirect
-	golang.org/x/text v0.20.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	sigs.k8s.io/release-utils v0.8.5 // indirect
 )
