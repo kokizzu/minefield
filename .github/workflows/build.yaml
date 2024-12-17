@@ -18,7 +18,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v2
       - name: Set up Go
-        uses: actions/setup-go@41dfa10bad2bb2ae585af6ee5bb4d7d973ad74ed # v2
+        uses: actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a # v2
         with:
           go-version: '1.23'
       - name: Install Wire
@@ -52,7 +52,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v2
       - name: Set up Go
-        uses: actions/setup-go@41dfa10bad2bb2ae585af6ee5bb4d7d973ad74ed # v2
+        uses: actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a # v2
         with:
           go-version: '1.23'
       - name: Docker Up
@@ -60,7 +60,7 @@ jobs:
       - name: Test
         run: make test-e2e
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@015f24e6818733317a2da2edd6290ab26238649a # v5.0.7
+        uses: codecov/codecov-action@7f8b4b4bde536c465e797be725718b88c5d95e0e # v5.1.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: coverage.out
